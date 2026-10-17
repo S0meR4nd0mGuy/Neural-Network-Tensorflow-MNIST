@@ -1,0 +1,40 @@
+{
+  "best_epoch": 61,
+  "best_validation_accuracy": 0.9954000115394592,
+  "best_validation_loss": 0.021298134699463844,
+  "saved_at_utc": "2026-10-17T10:05:19.500040+00:00",
+  "tensorflow_version": "2.22.0-rc0",
+  "training_examples": 55000,
+  "validation_examples": 5000,
+  "seed": 884736743,
+  "validation_split_seed": 884736743,
+  "architecture": {
+    "type": "convolutional_neural_network",
+    "convolution_filters": [
+      32,
+      32,
+      64,
+      64
+    ],
+    "dense_units": 128
+  },
+  "learning_rate_at_best_epoch": 3.125000148429535e-05,
+  "run_parameters": {
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "epochs_requested": 10,
+    "lr_reduction_patience": 2,
+    "early_stopping_patience": 6,
+    "translation": 0.05,
+    "rotation": 0.04,
+    "zoom": 0.05,
+    "conv_dropout_1": 0.15,
+    "conv_dropout_2": 0.2,
+    "dense_dropout": 0.3
+  },
+  "checkpoint": "mnist_best.keras",
+  "test_loss": 0.01488734595477581,
+  "test_accuracy": 0.9958000183105469,
+  "last_validation_accuracy": 0.9945999979972839,
+  "last_epoch": 75
+}
